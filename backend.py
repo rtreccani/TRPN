@@ -5,6 +5,8 @@ import logging, sys, math, random
 class TRPNBackend:
     stack = []
 
+    angleSchema = 'deg'
+ 
     def popFromBOS(self):
         return(self.stack.pop())
 
